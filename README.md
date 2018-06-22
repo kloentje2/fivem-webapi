@@ -15,15 +15,15 @@ The console shoud show "Running on port x" (x = your chosen port)
   
 When you are done with the steps above you can navigate to http://server-ip:port/ in your browser. On that page the commands are listed 
 
-http://server-ip:port/start
-http://server-ip:port/stop
-http://server-ip:port/restart
+http://server-ip:port/start<br>
+http://server-ip:port/stop<br>
+http://server-ip:port/restart<br>
 
 When you want to use one of these functions you need to use the API Key that you've changed
 You can use the key as a URL query 
 
-http://server-ip:port/start?key=123456
-http://server-ip:port/stop?key=123456
-http://server-ip:port/restart?key=123456
+http://server-ip:port/start?key=123456<br>
+http://server-ip:port/stop?key=123456<br>
+http://server-ip:port/restart?key=123456<br>
 
 Without using the key you won't be able to perform the action
