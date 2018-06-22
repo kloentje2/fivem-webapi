@@ -2,7 +2,7 @@
 
 ## How to install?
 
-1. Open CMD or a simmiliar Command Line Interface
+1. Open CMD or a similar Command Line Interface
 2. Make sure that you are in the working directory, I advise you to create a new directory
 3. Excecute this install command: *git clone https://github.com/kloentje2/fivem-webapi.git* en press <Enter>
 (Don't leave the working directory or close the command line!)
