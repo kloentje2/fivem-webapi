@@ -19,7 +19,7 @@ http://server-ip:port/start<br>
 http://server-ip:port/stop<br>
 http://server-ip:port/restart<br>
 
-When you want to use one of these functions you need to use the API Key that you've changed
+When you want to use one of these functions you need to use the API Key that you've changed.<br>
 You can use the key as a URL query 
 
 http://server-ip:port/start?key=123456<br>
