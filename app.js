@@ -10,7 +10,7 @@ var key = "123456";
 var port = 82;
 
 app.get("/", function(request, response){ //root dir
-    response.send("FiveM Communication API - Made by Koen1997#2008<hr><a href='/restart'>Restart</a><br><a href='/restart'>Stop</a><br><a href='/restart'>Start</a>");
+    response.send("FiveM Communication API - Made by Koen1997#2008<hr><a href='/restart'>Restart</a><br><a href='/stop'>Stop</a><br><a href='/start'>Start</a>");
 });
 
 app.get("/restart", function(request, response){ //root dir
