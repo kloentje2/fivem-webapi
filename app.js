@@ -9,11 +9,11 @@ var server_file = "server.bat";
 var key = "123456";
 var port = 82;
 
-app.get("/", function(request, response){ //root dir
+app.get("/", function(request, response){ 
     response.send("FiveM Communication API - Made by Koen1997#2008<hr><a href='/restart'>Restart</a><br><a href='/stop'>Stop</a><br><a href='/start'>Start</a>");
 });
 
-app.get("/restart", function(request, response){ //root dir
+app.get("/restart", function(request, response){ 
 	var url_parts = url.parse(request.url, true);
 	var query = url_parts.query;
     if (query['key'] === key) {
@@ -29,7 +29,7 @@ app.get("/restart", function(request, response){ //root dir
 	}
 });
 
-app.get("/start", function(request, response){ //root dir
+app.get("/start", function(request, response){ 
 	var url_parts = url.parse(request.url, true);
 	var query = url_parts.query;
     if (query['key'] === key) {
@@ -43,7 +43,7 @@ app.get("/start", function(request, response){ //root dir
 	}
 });
 
-app.get("/stop", function(request, response){ //root dir
+app.get("/stop", function(request, response){ 
 	var url_parts = url.parse(request.url, true);
 	var query = url_parts.query;
     if (query['key'] === key) {
