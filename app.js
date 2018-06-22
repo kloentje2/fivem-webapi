@@ -3,8 +3,8 @@ var app = express()
 var url = require('url');
 var exec = require("child_process").exec
 
-var server_dir = "C:\\Users\\koen\\Documents\\DenDam_Life_Downgraded\\";
-var server_file = "koenn.bat";
+var server_dir = "C:\\path\\to\\server\\directory\\";
+var server_file = "server.bat";
 
 var key = "28416897878645928354";
 var port = 82;
