@@ -4,12 +4,12 @@
 
 1. Open CMD or a similar Command Line Interface
 2. Make sure that you are in the working directory, I advise you to create a new directory
-3. Excecute this install command: *git clone https://github.com/kloentje2/fivem-webapi.git* en press <Enter>
+3. Excecute this install command: *git clone https://github.com/kloentje2/fivem-webapi.git* en press Enter
 (Don't leave the working directory or close the command line!)
 4. Excecute the install command: *npm install*
 5. Open the file app.js in your plain-text editor and change the variable key to a random string that you can remember
 6. Also change the port to something you want. Be sure to open it in the firewall/router when you want to open it form outside the network
-7. Run *node app.js* in the Command Line and hit <Enter>
+7. Run *node app.js* in the Command Line and hit Enter
 
 The console shoud show "Running on port x" (x = your chosen port)
   
