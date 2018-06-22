@@ -1,0 +1,20 @@
+{
+  "name": "fivem-webapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http-auth": "^3.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kloentje2/fivem-webapi.git"
+  },
+  "author": "Koen Hollander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kloentje2/fivem-webapi/issues"
+  },
+  "homepage": "https://github.com/kloentje2/fivem-webapi#readme"
+}
