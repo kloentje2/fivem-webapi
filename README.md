@@ -7,7 +7,8 @@
 3. Excecute this install command: *git clone https://github.com/kloentje2/fivem-webapi.git* en press Enter
 (Don't leave the working directory or close the command line!)
 4. Excecute the install command: *npm install*
-5. Open the file app.js in your plain-text editor and change the variable key to a random string that you can remember
+5. Open the file app.js in your plain-text editor and change the variable key to a random string that you can remember.
+6. Don't forget the location of your fxserver/fivem.
 6. Also change the port to something you want. Be sure to open it in the firewall/router when you want to open it form outside the network
 7. Run *node app.js* in the Command Line and hit Enter
 
