@@ -27,3 +27,9 @@ http://server-ip:port/stop?key=123456<br>
 http://server-ip:port/restart?key=123456<br>
 
 Without using the key you won't be able to perform the action
+
+## Requirements
+
+\# NodeJS 8.9.4 (You can try lower, but i've tested it on this version)
+\# Windows Server 2012 R2(Every recent Windows Server/Client Version should work, but i've tested it on this version)
+\# Access to the Windows Firewall
