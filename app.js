@@ -6,7 +6,7 @@ var exec = require("child_process").exec
 var server_dir = "C:\\path\\to\\server\\directory\\";
 var server_file = "server.bat";
 
-var key = "28416897878645928354";
+var key = "123456";
 var port = 82;
 
 app.get("/", function(request, response){ //root dir
