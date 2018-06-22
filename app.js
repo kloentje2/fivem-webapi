@@ -3,10 +3,11 @@ var app = express()
 var url = require('url');
 var exec = require("child_process").exec
 
-var server_dir = ""; //Directory where your .bat file is located. Example: C:\\Users\\Administrator\\Desktop\\FiveM\\
-var server_file = ""; \\.bat file to start server. Example: server.bat
+var server_dir = "C:\\Users\\koen\\Documents\\DenDam_Life_Downgraded\\";
+var server_file = "koenn.bat";
 
-var key = "28416897878645928354";
+var key = "123456"; //Change me
+var port = 82;
 
 app.get("/", function(request, response){ //root dir
     response.send("FiveM Communication API - Made by Koen1997#2008");
@@ -42,4 +43,5 @@ app.get("/start", function(request, response){ //root dir
 	}
 });
 
-app.listen(82);
+app.listen(port);
+console.log("Running on port "+ port);
